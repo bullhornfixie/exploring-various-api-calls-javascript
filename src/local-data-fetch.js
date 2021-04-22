@@ -1,3 +1,5 @@
+// extracting data from local JSON file. 
+
 const pipeline = require('../public/swell-data/pipeline_616_forecast.json');
 console.log("data extracted")
 
