@@ -5,5 +5,3 @@ For a proposed project I required swell data from MagicSeaweed via their API. Ho
 
 This is a testing area which enabled me to extract data from the local JSON files and manipulate the data.
 
-
-# mock-api
