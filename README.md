@@ -1,9 +1,9 @@
 ## Exploring Various API Calls In Javascript
 
 ### Methods
-[x] Extracting data from local JSON files
-[x] Fetch API 
-[x] Axios Library
+[x] Extracting data from local JSON files \
+[x] Fetch API \
+[x] Axios Library \
 
 ### Extracting data from local JSON Files
 Magigseaweed provides global surf forecasts. In absence of their API, which is closed to new applications, they sent me 4 JSON files with swell and weather data at Fistral North(UK), Pipeline(Hawaii), Snapper Rocks(Australia), Trestles(USA). Extracting and mainpulating data from JSON files locally was a useful prerequisite prior to exploring the various methods to make API calls that return data in a JSON data format. 
