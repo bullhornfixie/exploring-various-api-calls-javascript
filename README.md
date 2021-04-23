@@ -1,7 +1,35 @@
-## Mock API 
+## Exploring Various API Calls In Javascript
 
-### Extracting and manipulating data from a local JSON file
-For a proposed project I required swell data from MagicSeaweed via their API. However, this is now closed to new applications and in lieu MSW provided 4 JSON files with swell data of 4 major surf spots in Cornwall, Hawaii, Gold Coast and California. 
+### Methods
+[x] Extracting data from local JSON files
+[x] Fetch API 
+[x] Axios Library
 
-This is a testing area which enabled me to extract data from the local JSON files and manipulate the data.
+### Extracting data from local JSON Files
+Magigseaweed which provides global surf forecasts. In absence for their API closed to new applications, they sent me 4 JSON files with swell and weather data at Fistral North(UK), Pipeline(Hawaii),Snapper Rocks(Australia), Trestles(USA). Extracting and mainpulating data from JSON files locally was a useful prerequisite prior to exploring various methods to make API calls which return data in a JSON data format. 
+
+```
+const pipeline = require('../public/swell-data/pipeline_616_forecast.json')
+```
+
+### Fetch
+XMLHttpRequest(XHR) was deprecated in ES6 with the introduction of fetch. The Fetch API is a simple interface for fetching resources and handling responses than the older XMLHttpRequest which requires additional logic. 
+
+```
+npm install fetch 
+``` 
+* Fetch returns data a text or json depending on request
+* Fetch API provides a JavaScript interface for HTTP requests and responses
+
+### Axios 
+Axios is an open-source library for making HTTP requests. It is a promise based HTTP client that can be used in plain JavaScript and advanced frameworks like React, Vue.js and Angular. 
+
+```
+npm install axios
+```
+* Axios returns data in a JSON format
+* Axios is a very easy and open-source library for making HTTP requests and responses
+
+
+
 

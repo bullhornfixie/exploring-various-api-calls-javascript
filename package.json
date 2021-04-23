@@ -1,0 +1,24 @@
+{
+  "name": "mock-api-fetch",
+  "version": "1.0.0",
+  "description": "### Extracting and manipulating data from a local JSON file For a proposed project I required swell data from MagicSeaweed via their API. However, this is now closed to new applications and in lieu MSW provided 4 JSON files with swell data of 4 major surf spots in Cornwall, Hawaii, Gold Coast and California.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bullhornfixie/mock-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bullhornfixie/mock-api/issues"
+  },
+  "homepage": "https://github.com/bullhornfixie/mock-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
+    "unirest": "^0.6.0"
+  }
+}
