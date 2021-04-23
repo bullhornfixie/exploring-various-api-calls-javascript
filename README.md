@@ -6,7 +6,7 @@
 [x] Axios Library
 
 ### Extracting data from local JSON Files
-Magigseaweed which provides global surf forecasts. In absence for their API closed to new applications, they sent me 4 JSON files with swell and weather data at Fistral North(UK), Pipeline(Hawaii),Snapper Rocks(Australia), Trestles(USA). Extracting and mainpulating data from JSON files locally was a useful prerequisite prior to exploring various methods to make API calls which return data in a JSON data format. 
+Magigseaweed provides global surf forecasts. In absence of their API, which is closed to new applications, they sent me 4 JSON files with swell and weather data at Fistral North(UK), Pipeline(Hawaii), Snapper Rocks(Australia), Trestles(USA). Extracting and mainpulating data from JSON files locally was a useful prerequisite prior to exploring the various methods to make API calls that return data in a JSON data format. 
 
 ```
 const pipeline = require('../public/swell-data/pipeline_616_forecast.json')
@@ -18,7 +18,7 @@ XMLHttpRequest(XHR) was deprecated in ES6 with the introduction of fetch. The Fe
 ```
 npm install fetch 
 ``` 
-* Fetch returns data a text or json depending on request
+* Fetch returns data a text or JSON depending on request
 * Fetch API provides a JavaScript interface for HTTP requests and responses
 
 ### Axios 
